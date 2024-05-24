@@ -52,7 +52,7 @@ body {
 .apresentacao {
     padding: 5% 15%;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     gap: 32px;
 }
@@ -130,12 +130,12 @@ body {
 
 .quadrado_rosa{
     position: absolute;
-    margin-top: -20px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
     color: #FFF;
-    width: 29.125rem;
-    height: 526px;
-    border: 3px solid var(--cor-primaria);
+    width: 29.3rem;
+    height: 29.5rem;
+    background-color: var(--cor-primaria);
     border-radius: 16px;
     z-index: -1;
 }
@@ -152,7 +152,8 @@ body {
 }
 
 .imagem_foto{
-    width: 468px;
+    width: 72%;
+    border-radius: 16px;
 }
 
 .rodape{
@@ -189,8 +190,9 @@ body {
     }
 
     .imagem_foto{
-        width: 19.180625rem;
-        height: 21.803125rem;
+        width: 80%;
+        border-radius: 16px;
+        /* height: 348.85px; */
     }
 
     .cabecalho_menu{
@@ -217,8 +219,8 @@ body {
     }
 
     .quadrado_rosa{
-        width: 305.57px;
-        height: 344.92px;
+        width: 270px;
+        height: 270px;
     }
 
     .imagem_projeto{
