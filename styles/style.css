@@ -189,8 +189,8 @@ body {
     }
 
     .imagem_foto{
-        width: 100%;
-        
+        width: 19.180625rem;
+        height: 21.803125rem;
     }
 
     .cabecalho_menu{
@@ -216,6 +216,11 @@ body {
         flex-direction: column;
     }
 
+    .quadrado_rosa{
+        width: 305.57px;
+        height: 344.92px;
+    }
+
     .imagem_projeto{
         width: 19.373125rem;
         height: 12.71625rem;
@@ -229,9 +234,4 @@ body {
     /* .apresentacao_conteudo_proetos{
         gap: 15px;
     } */
-
-    .quadrado_rosa{
-        width: 42%;
-        height: 28%;
-    }
 }
