@@ -34,7 +34,7 @@ body {
     /* padding-bottom: 3px; */
     display:flex;
     gap: 8px;
-    font: var(--fonte-primaria);
+    font-family: var(--fonte-primaria);
     text-decoration: none;
     font-size: 1.5rem;
     color: var(--cor-primaria);
