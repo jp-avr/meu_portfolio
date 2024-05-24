@@ -4,6 +4,7 @@
     --cor-primaria: #FF577F;
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #2B2B2B;
+    --cor-hover: #717070;
 
     --fonte-primaria : 'Do Hyeon', sans-serif;
     --fonte-secundaria: "Lato", sans-serif;
@@ -126,6 +127,10 @@ body {
     border: 2px solid var(--cor-primaria);
     padding: 16px;
     border-radius: 8px;
+}
+
+.apresentacao_botoes:hover{
+    background-color: var(--cor-hover);
 }
 
 .quadrado_rosa{
