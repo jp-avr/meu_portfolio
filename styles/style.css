@@ -189,10 +189,28 @@ body {
         justify-content: center;
     }
 
+    .div_da_imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        position: relative;
+        width: 16.875rem; /* Definindo a largura do contêiner para a largura do quadrado rosa */
+        height: 16.875rem
+    }
+
     .imagem_foto{
-        width: 80%;
+        width: 100%;
         border-radius: 16px;
-        /* height: 348.85px; */
+        height: auto;
+    }
+
+    .quadrado_rosa{
+        position: absolute;
+        width: 100%; /* Definindo a largura do quadrado rosa para preencher o contêiner */
+        height: 100%;
     }
 
     .cabecalho_menu{
@@ -216,11 +234,6 @@ body {
 
     .apresentacao_conteudo_imagens{
         flex-direction: column;
-    }
-
-    .quadrado_rosa{
-        width: 270px;
-        height: 270px;
     }
 
     .imagem_projeto{
